@@ -79,7 +79,7 @@ setup(
         "Programming Language :: Python :: 3.12",
     ],
     url="https://github.com/pyvista/fast-simplification",
-    python_requires=">=3.9",
+    # python_requires=">=3.9",
     # Build cython modules
     cmdclass={"build_ext": build_ext},
     ext_modules=[
